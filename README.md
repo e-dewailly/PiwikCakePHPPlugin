@@ -12,8 +12,8 @@ Go to your AppController.php file and add this at the components array:
 ```php
 public $components = array(
 	'Piwik.Piwik' => array(
-		'URL' => '{YOUR URL TO YOUR PIWIK INSTALLATION}',
-		'idSite' => {YOUR SITE ID IN PIWIK},
+		'URL' => '{URL TO YOUR PIWIK INSTALLATION}',
+		'idSite' => {SITE ID IN YOUR PIWIK},
 		'autotrack' => {true|false}
 	)
 );

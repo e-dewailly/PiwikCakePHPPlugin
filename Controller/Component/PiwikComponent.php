@@ -39,7 +39,7 @@ class PiwikComponent extends Component {
 	}
 
 	public function startup(Controller $controller) {
-		$this->doTrackPageView($this->title);
+		if ($this->settings['autotrack']) $this->doTrackPageView($this->title);
 	}
 
 
